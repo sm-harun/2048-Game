@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.smharun.2048;
+package com.smharun.game2048;
 
 public final class R {
     public static final class attr {

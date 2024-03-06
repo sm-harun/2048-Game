@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.smharun.2048" >
+    package="com.smharun.game2048" >
 
     <application
         android:allowBackup="true"

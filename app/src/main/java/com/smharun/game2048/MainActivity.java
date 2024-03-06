@@ -1,4 +1,4 @@
-package com.smharun.2048;
+package com.smharun.game2048;
 
 import android.app.*;
 import android.os.*;
