@@ -1,9 +1,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-	android:orientation="vertical"
-	android:background="#FFFFFF"
-    android:gravity="center">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="#FFFFFF" >
 
 	<LinearLayout
 		android:layout_width="fill_parent"
@@ -13,83 +12,84 @@
 		android:background="#2CFFFD"
 		android:gravity="center">
 
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="HighScore: "
-			android:id="@+id/highScoreText"/>
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="0"
-			android:textColor="#FF3100"
-			android:id="@+id/highScore"/>
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_marginLeft="100dp"
-			android:text="Score: "
-			android:id="@+id/scoreText"/>
-
-		<TextView
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:text="0"
-			android:textColor="#958200"
-			android:id="@+id/score"/>
-
-		<Button
-			android:layout_width="wrap_content"
-			android:layout_height="wrap_content"
-			android:layout_marginLeft="120dp"
-			android:text="Reset" 
-			android:onClick="reset"
-			android:background="#FFFFFF"/>
-
-	</LinearLayout>
-
-    <LinearLayout
-		android:layout_width="match_parent"
+	<TextView
+		android:layout_width="wrap_content"
 		android:layout_height="wrap_content"
-		android:orientation="horizontal"
-		android:layout_marginTop="70dp">
+		android:text="HighScore: "
+		android:id="@+id/highScoreText"/>
 
-		<ImageView
-			android:text="@string/hello_world"
-			android:layout_width="140dp"
-			android:layout_height="140dp"
-			android:layout_marginLeft="50dp"
-			android:src="@drawable/emptyspace"
-			android:id="@+id/box0"/>
-
-		<ImageView
-			android:text="@string/hello_world"
-			android:layout_width="140dp"
-			android:layout_height="140dp"
-			android:layout_marginLeft="10dp"
-			android:src="@drawable/emptyspace"
-			android:id="@+id/box1"/>
-
-		<ImageView
-			android:text="@string/hello_world"
-			android:layout_width="140dp"
-			android:layout_height="140dp"
-			android:layout_marginLeft="10dp"
-			android:src="@drawable/emptyspace"
-			android:id="@+id/box2"/>
-
-		<ImageView
-			android:text="@string/hello_world"
-			android:layout_width="140dp"
-			android:layout_height="140dp"
-			android:layout_marginLeft="10dp"
-			android:src="@drawable/emptyspace"
-			android:id="@+id/box3"/>
-
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textColor="#FF3100"
+		android:id="@+id/highScore"/>
+		
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="100dp"
+		android:text="Score: "
+		android:id="@+id/scoreText"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="0"
+		android:textColor="#958200"
+		android:id="@+id/score"/>
+	
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="120dp"
+		android:text="Reset" 
+		android:onClick="reset"
+		android:background="#FFFFFF"/>
+	
 	</LinearLayout>
+	
+	
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:layout_marginTop="70dp">
+	
+    <ImageView
+        android:text="@string/hello_world"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+		android:layout_marginLeft="50dp"
+		android:src="@drawable/emptyspace"
+		android:id="@+id/box0"/>
+	
+	<ImageView
+        android:text="@string/hello_world"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+		android:layout_marginLeft="10dp"
+		android:src="@drawable/emptyspace"
+		android:id="@+id/box1"/>
+	
+	<ImageView
+        android:text="@string/hello_world"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+		android:layout_marginLeft="10dp"
+		android:src="@drawable/emptyspace"
+		android:id="@+id/box2"/>
+	
+	<ImageView
+        android:text="@string/hello_world"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+		android:layout_marginLeft="10dp"
+		android:src="@drawable/emptyspace"
+		android:id="@+id/box3"/>
 
+ </LinearLayout>
+ 
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -129,7 +129,7 @@
 			android:id="@+id/box7"/>
 
 	</LinearLayout>
-
+	
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -169,7 +169,7 @@
 			android:id="@+id/box11"/>
 
 	</LinearLayout>
-
+	
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -209,48 +209,47 @@
 			android:id="@+id/box15"/>
 
 	</LinearLayout>
-
+	
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_marginTop="30dp"
 		android:orientation="vertical"
 		android:gravity="center"> 
-
+		
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="UP"
 			android:onClick="up"/>
-
+		
 		<LinearLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
 			android:gravity="center" > 
-
+			
 			<Button
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content" 
 				android:layout_marginRight="20dp"
 				android:text="LEFT"
 				android:onClick="left"/>
-
+			
 			<Button
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content" 
 				android:layout_marginLeft="20dp"
 				android:text="RIGHT"
 				android:onClick="right"/>
-
-		</LinearLayout>
-
+			
+			</LinearLayout>
+			
 		<Button
 			android:layout_width="wrap_content"
 			android:layout_height="wrap_content"
 			android:text="DOWN"
 			android:onClick="down"/>
-
+		
     </LinearLayout>
-
+ 
 </LinearLayout>
-
